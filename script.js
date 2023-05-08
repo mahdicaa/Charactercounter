@@ -7,7 +7,8 @@ function CharCounter (Input_str) {
                 CurrChar[PrevChar] = CurrChar[PrevChar] + 1;
             }
             // delete CurrChar[" "]
+            return CurrChar;
             }, {});
-        return counter;
+        return counter
     }
 console.log(CharCounter("Hello world"))
